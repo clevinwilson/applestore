@@ -1,0 +1,25 @@
+body {
+    min-width: 320px;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-bg {
+    backdrop-filter: saturate(180%) blur(20px);
+    opacity: 0.5;
+    background-color: black;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+}
