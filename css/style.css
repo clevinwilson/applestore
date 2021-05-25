@@ -123,21 +123,7 @@ body {
 .banner-image{
      width: 100%;
 }
-@media screen and (max-width: 735px) {
-    .banner-text {
-        font-size: 18px;
-    }
-    .banner-header-text{
-        font-size: 32px;
-    }
-    .banner-links{
-        font-size: 14px;
-    }
-    .banner-links-icons{
-        font-size: 8px;
-    }
-    
-}
+
 .banners-header-text{
     position: absolute;
     margin: auto;
@@ -196,5 +182,39 @@ body {
     font-weight: 400;
     letter-spacing: .011em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+@media screen and (max-width: 735px) {
+    .banner-text {
+        font-size: 18px;
+    }
+    .banner-header-text{
+        font-size: 32px;
+    }
+    .banner-links{
+        font-size: 14px;
+    }
+    .banner-links-icons{
+        font-size: 8px;
+    }
+    
+    .banners-header-text{
+        font-size: 32px;
+    }
+    .banners-text {
+        font-size: 18px;
+        height: 300px;
+    }
+    .banners-sub-text{
+        font-size: 15px;
+        height: 233px;
+    }
+    .banners-links{
+        height: 170px;
+        font-size: 15px;
+    }
+
+
+    
 }
 
