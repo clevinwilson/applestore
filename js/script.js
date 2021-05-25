@@ -16,7 +16,7 @@ function screenSize() {
         image.style.width = '847px';
         image.style.height = '394px';
 
-                
+
         var image = document.getElementById("banner-two")
         image.src = "images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg";
 
@@ -39,9 +39,27 @@ if (screen.width < 735) {
     image.style.width = '847px';
     image.style.height = '394px';
 
-    
-    var image = document.getElementById("banner-two")
-        image.src = "images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg";
 
-   
+    var image = document.getElementById("banner-two")
+    image.src = "images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg";
+
+
+}
+
+//  hamburger menu for small devices
+function openNav() {
+    document.getElementById("mySidenav").style.height = "100%";
+    document.getElementById("closebtn").onclick = closeNav;
+    document.getElementById('closebtn').innerHTML = "&times;"
+    document.getElementById("mySidenav").style.opacity = "1.5";
+    document.getElementById("mySidenav").style.backgroundColor = "black";
+
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.height = "0";
+    document.getElementById("closebtn").onclick = openNav;
+    document.getElementById('closebtn').innerHTML = "="
+    document.getElementById("mySidenav").style.opacity = "0.8";
 }

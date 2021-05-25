@@ -35,6 +35,7 @@ body {
     width: 50%;
     text-align: center;
 }
+
 .ribbon {
     background-color: #f5f5f7;
     margin-top: 60px;
@@ -47,6 +48,14 @@ body {
 
 .ribbon-text {
     font-size: 14px;
+}
+
+@media screen and (max-width: 1333px) {
+    .nav-item-box {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 15px;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -88,133 +97,256 @@ body {
         padding-left: 5px;
     }
 }
-
-.banner{
-    background-color: black;
-
+@media screen and (max-width: 977px) {
+    .nav-item-box {
+        margin-left: 3px;
+        margin-right: 3px;
+        padding-left: 3px;
+    }
 }
-.banner-header-text{
+
+.banner {
+    background-color: black;
+}
+
+.banner-header-text {
     font-size: 54px;
     font-weight: 550;
     line-height: 1.07143;
     letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.banner-text{
+
+.banner-text {
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
     letter-spacing: .004em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     margin-top: 6px;
-    
 }
-.banner-links{
+
+.banner-links {
     display: inline-block;
     font-size: 18px;
     line-height: 1.381;
     font-weight: 400;
     letter-spacing: .011em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-.banner-links-icons{
-    font-size: 14px;
-}
-.banner-image{
-     width: 100%;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.banners-header-text{
+.banner-links-icons {
+    font-size: 14px;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.banners-header-text {
     position: absolute;
     margin: auto;
     top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    height:375px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 375px;
     color: black;
     font-size: 54px;
     font-weight: 550;
     line-height: 1.07143;
     letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.banners-text{
+
+.banners-text {
     position: absolute;
     margin: auto;
     top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    height:250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 250px;
     color: black;
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
     letter-spacing: .004em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.banners-sub-text{
+
+.banners-sub-text {
     position: absolute;
     margin: auto;
     top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    height:154px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 154px;
     color: #86868b;
     font-size: 17px;
     line-height: 1.07143;
     letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.banners-links{
+
+.banners-links {
     position: absolute;
     margin: auto;
     top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    height:87px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 87px;
     display: inline-block;
     font-size: 18px;
     line-height: 1.381;
     font-weight: 400;
     letter-spacing: .011em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 @media screen and (max-width: 735px) {
     .banner-text {
         font-size: 18px;
     }
-    .banner-header-text{
+    .banner-header-text {
         font-size: 32px;
     }
-    .banner-links{
+    .banner-links {
         font-size: 14px;
     }
-    .banner-links-icons{
+    .banner-links-icons {
         font-size: 8px;
     }
-    
-    .banners-header-text{
+    .banners-header-text {
         font-size: 32px;
     }
     .banners-text {
         font-size: 18px;
         height: 300px;
     }
-    .banners-sub-text{
+    .banners-sub-text {
         font-size: 15px;
         height: 233px;
     }
-    .banners-links{
+    .banners-links {
         height: 170px;
         font-size: 15px;
     }
-
-
-    
 }
 
+@media (min-width:768px) {
+    #mySidenav {
+        display: none;
+    }
+}
+
+/* hamburger menu for small devices */
+
+.sidenav {
+    height: 0;
+    /* 100% Full-height */
+    width: 100%;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    opacity: 0.8;
+    background-color: black;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 7px;
+    /* right: 25px; */
+    font-size: 32px;
+    margin-left: -19px;
+}
+
+.bag {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.apple-logo {
+    position: absolute;
+    top: -4px;
+    right: 47%;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.search-bar{
+    align-items: center;
+    width: 93%;
+    height: 5%;
+    border-radius: 6px;
+    background: #1d1d1d;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border: 0px;
+}
+hr.hamburger-hr{
+    border-top: 0.2px solid #343434;
+}
+/* navbar for md and xl devices */
+
+@media (max-width:768px) {
+    #navbar {
+        display: none;
+    }
+}

@@ -16,10 +16,47 @@
 </head>
 
 <body onresize="screenSize()">
+
   <header style=" line-height: 0.8;">
     <div class="row">
       <div class="col-md-12">
-        <nav style="    position: fixed; width: 100%; z-index: 1;" class="navdbar navbar-expand-md nav-bg  navbar-dark">
+        <!-- hamburger menu for small devices -->
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="openNav()"><i
+              style="font-size: 26px; font-weight: 100;" class="fas fa-equals"></i><a>
+              <a id="apple-logo" class="apple-logo"><img
+                  src="https://www.apple.com/ac/globalnav/6/en_IN/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg"
+                  style="    height: 53px;" alt=""></a>
+                  <a class="text-light bag"><i
+                    style="font-weight: 100;    font-size: 20px;" class="nav-icon fas fa-shopping-bag"></i></a>
+                    
+              <input class="search-bar mb-3 mr-3 ml-3" type="text" placeholder="  🔍Search apple.com" >
+              <hr class=" hamburger-hr">
+              <a href="/">iMac</a>
+              <hr style="margin-left: 20px; margin-right: 20px;">
+              <hr class="ml-4 mr-4 hamburger-hr">
+
+              <a href="/gallery">iPhone</a>
+              <hr style="margin-left: 20px; margin-right: 20px;">
+              <hr class="ml-4 mr-4 hamburger-hr">
+
+              <a href="/about">Watch</a>
+              <hr style="margin-left: 20px; margin-right: 20px;">
+              <hr class="ml-4 mr-4 hamburger-hr">
+
+              <a href="/contact">Support</a>
+              <hr style="margin-left: 20px; margin-right: 20px;">
+              <hr class="ml-4 mr-4 hamburger-hr">
+
+              <a href="/plans">Music</a>
+        </div>
+
+        <!-- hamburger menu for small devices -->
+
+
+        <nav id="navbar" style="    position: fixed; width: 100%; z-index: 1;"
+          class="navdbar navbar-expand-md nav-bg  navbar-dark">
           <!-- Toggler/collapsibe Button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -64,10 +101,12 @@
                     alt=""></a>
               </li>
               <li class="nav-item-box nav-item">
-                <a  class="text-white nav-icon nav-link " href="#"><i style="font-weight: 100;" class=" fa fa-search"></i></a>
+                <a class="text-white nav-icon nav-link " href="#"><i style="font-weight: 100;"
+                    class=" fa fa-search"></i></a>
               </li>
               <li class="nav-item-box nav-item">
-                <a class="text-white  nav-link" href="#"><i style="font-weight: 100;" class="nav-icon fas fa-shopping-bag"></i></a>
+                <a class="text-white  nav-link" href="#"><i style="font-weight: 100;"
+                    class="nav-icon fas fa-shopping-bag"></i></a>
               </li>
             </ul>
           </div>
@@ -107,8 +146,8 @@
   <section class="banner-two">
     <div class="row">
       <div style="text-align:center; " class="col-md-12">
-        <img id="banner-two" src="images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg" width="100%" style="object-fit: cover;"
-          height="500px" width="880px" alt="">
+        <img id="banner-two" src="images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg" width="100%"
+          style="object-fit: cover;" height="500px" width="880px" alt="">
         <h2 class="banners-header-text">iPhone 12</h2>
         <h3 class="banners-text">Blast past fast.</h3>
         <h3 class="banners-sub-text">From ₹69900* before&nbsp;trade‑in</h3>
