@@ -97,6 +97,7 @@ body {
         padding-left: 5px;
     }
 }
+
 @media screen and (max-width: 977px) {
     .nav-item-box {
         margin-left: 3px;
@@ -205,7 +206,8 @@ body {
     letter-spacing: .011em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.banner-image{
+
+.banner-image {
     height: 590px;
 }
 
@@ -224,7 +226,8 @@ body {
     }
     .banners-header-text {
         font-size: 32px;
-        height: 438px;;
+        height: 438px;
+        ;
     }
     .banners-text {
         font-size: 18px;
@@ -238,7 +241,7 @@ body {
         height: 186px;
         font-size: 15px;
     }
-    .banners-image{
+    .banners-image {
         height: 488px;
     }
 }
@@ -248,7 +251,6 @@ body {
         display: none;
     }
 }
-
 
 /* hamburger menu for small devices */
 
@@ -335,7 +337,8 @@ body {
         font-size: 18px;
     }
 }
-.search-bar{
+
+.search-bar {
     align-items: center;
     width: 93%;
     height: 5%;
@@ -345,16 +348,51 @@ body {
     line-height: 1.23536;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     border: 0px;
 }
-hr.hamburger-hr{
+
+hr.hamburger-hr {
     border-top: 0.2px solid #343434;
 }
+
 /* navbar for md and xl devices */
 
 @media (max-width:768px) {
     #navbar {
         display: none;
     }
+}
+
+.wrapper {
+    background-color: black;
+    text-align: center;
+}
+.logo-wrapper{
+    padding: 34px;
+}
+
+.wwdc-text {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.wwdc-logo-image{
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 49px;
+    background-image: url(images/promo_tile_logo__fois684wh1ym_large.png);
+}
+.wwdc-link{
+    font-size: 17px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
