@@ -228,18 +228,18 @@ body {
     }
     .banners-text {
         font-size: 18px;
-        height: 333px;
+        height: 343px;
     }
     .banners-sub-text {
         font-size: 15px;
-        height: 254px;
+        height: 261px;
     }
     .banners-links {
-        height: 170px;
+        height: 186px;
         font-size: 15px;
     }
-    .banner-image{
-        height: 530px;
+    .banners-image{
+        height: 488px;
     }
 }
 
