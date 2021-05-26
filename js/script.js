@@ -9,6 +9,8 @@ function screenSize() {
         var image = document.getElementById("banner-two")
         image.src = "images/iphone_12_updated__jepm2xpxncuy_small_2x.jpg";
 
+        var image = document.getElementById("banner-three").src = "images/hero_imac__dqh65mwjj04m_small_2x.jpg";
+
     } else {
         var image = document.getElementById("myImg")
         image.src = "images/index-banner.jpg";
@@ -19,6 +21,8 @@ function screenSize() {
 
         var image = document.getElementById("banner-two")
         image.src = "images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg";
+
+        var image = document.getElementById("banner-three").src = "images/hero_imac__dqh65mwjj04m_large.jpg";
 
     }
 }
@@ -32,6 +36,8 @@ if (screen.width < 735) {
     var image = document.getElementById("banner-two")
     image.src = "images/iphone_12_updated__jepm2xpxncuy_small_2x.jpg";
 
+    var image = document.getElementById("banner-three").src = "images/hero_imac__dqh65mwjj04m_small_2x.jpg";
+
 } else {
     var image = document.getElementById("myImg")
     document.getElementById("myImg").src = "images/index-banner.jpg";
@@ -43,6 +49,7 @@ if (screen.width < 735) {
     var image = document.getElementById("banner-two")
     image.src = "images/iphone_12_updated__jepm2xpxncuy_large_2x.jpg";
 
+    var image = document.getElementById("banner-three").src = "images/hero_imac__dqh65mwjj04m_large.jpg";
 
 }
 
