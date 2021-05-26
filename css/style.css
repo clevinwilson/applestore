@@ -150,7 +150,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 375px;
+    height: 470px;
     color: black;
     font-size: 54px;
     font-weight: 550;
@@ -166,7 +166,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 250px;
+    height: 337px;
     color: black;
     font-size: 28px;
     line-height: 1.10722;
@@ -182,7 +182,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 154px;
+    height: 244px;
     color: #86868b;
     font-size: 17px;
     line-height: 1.07143;
@@ -197,7 +197,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 87px;
+    height: 175px;
     display: inline-block;
     font-size: 18px;
     line-height: 1.381;
@@ -240,6 +240,9 @@ body {
     #mySidenav {
         display: none;
     }
+}
+.banner-image{
+    height: 590px;
 }
 
 /* hamburger menu for small devices */
