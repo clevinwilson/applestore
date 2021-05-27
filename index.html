@@ -177,8 +177,8 @@
 
   <section>
     <div class="row">
-      <div class="m-3 col-md-6">
-        <div class="wrapper">
+      <div class=" col-md-6">
+        <div class=" wrapper">
           <div class="logo-wrapper">
             <div class="wwdc-logo">
               <h4 class="wwdc-logo-image"
@@ -192,29 +192,50 @@
             </div>
           </div>
           <div style="overflow:hidden; display:block;" class="banner-wrapper">
-            <video id="myVideo" style="transform: scale(1.7); height: 367px;" src="videos/large_2x.mp4" type="video/mp4"
-              width="100%" controls height="auto"></video>
+            <video id="myVideo" class="wwdc-video" src="videos/large_2x.mp4" type="video/mp4" width="100%" controls
+              height="auto"></video>
           </div>
         </div>
       </div>
       <div class="col-md-6">
+        <div class=" watch-header-content">
+          <img class=" banners-image" id="banner-three" src="images/promo_watch_series_6_lte__f8lrasjnry2y_large_2x.jpg"
+            width="100%" style="object-fit: cover;" height="580px" width="880px" alt="">
+          <img class="watch-logo" src="images/promo_logo_watch_series_6__gdadxakat1iu_large.png" alt="">
+          <div class="watch-content watch-text">
+            <h5 class="wwdc-text">The future of health is on your wrist.</h5>
+          </div>
+          <div class="watch-content watch-links">
+            <a class="mr-3" href="">Learn more <i style="font-size: 13px;"
+                class="banner-links-icons font-weight-normal fas fa-chevron-right"></i></a>
+            <a href="">Buy <i style="font-size: 13px;"
+                class="banner-links-icons font-weight-normal fas fa-chevron-right"></i></a>
+          </div>
+        </div>
       </div>
+    </div>
     </div>
   </section>
   <script>
-    
-var myVideo = document.getElementById('myVideo');
 
-VisSense.VisMon.Builder(VisSense(myVideo, { fullyvisible: 0.75 }))
-.on('fullyvisible', function(monitor) {
-  myVideo.play();
-})
-.on('hidden', function(monitor) {
-  myVideo.pause();
-  
-})
-.build()
-.start();
+    var myVideo = document.getElementById('myVideo');
+    function playVid() {
+      myVideo.play()
+
+    }
+
+
+
+// VisSense.VisMon.Builder(VisSense(myVideo, { fullyvisible: 0.75 }))
+// .on('fullyvisible', function(monitor) {
+//   myVideo.play();
+// })
+// .on('hidden', function(monitor) {
+//   myVideo.pause();
+
+// })
+// .build()
+// .start();
 
   </script>
 

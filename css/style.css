@@ -367,8 +367,10 @@ hr.hamburger-hr {
 .wrapper {
     background-color: black;
     text-align: center;
+    margin-left: 10px;
 }
-.logo-wrapper{
+
+.logo-wrapper {
     padding: 34px;
 }
 
@@ -382,17 +384,81 @@ hr.hamburger-hr {
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.wwdc-logo-image{
+.wwdc-video {
+    transform: scale(1.7);
+    height: 367px;
+}
+
+.wwdc-logo-image {
     height: 90px;
     background-repeat: no-repeat;
     background-position: center;
     height: 49px;
     background-image: url(images/promo_tile_logo__fois684wh1ym_large.png);
 }
-.wwdc-link{
+
+.wwdc-link {
     font-size: 17px;
     line-height: 1.2381;
     font-weight: 400;
     letter-spacing: .016em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.watch-logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 450px;
+    height: 50px;
+}
+
+.watch-content {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: black;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.watch-text {
+    height: 380px;
+}
+
+.watch-links {
+    font-size: 17px;
+    text-align: center;
+    height: 307px;
+}
+
+.watch-header-content {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        margin-left: 0px;
+        margin-bottom: 13px;
+    }
+    .watch-header-content {
+        margin-right: 0px;
+    }
+    .banners-image {
+        height: 544px;
+    }
+    .wwdc-text {
+        font-size: 18px;
+    }
+    .wwdc-video {
+        height: 340px;
+    }
 }
