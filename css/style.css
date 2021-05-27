@@ -444,6 +444,40 @@ hr.hamburger-hr {
     margin-right: 10px;
 }
 
+.box-margin {
+    margin-left: 10px;
+}
+
+.box-header-content {
+    margin-right: 10px;
+}
+
+.box-logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 434px;
+    height: 39px;
+}
+
+.tv-text {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.privacy-box-text {
+    font-size: 37px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 53px;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         margin-left: 0px;
@@ -461,34 +495,20 @@ hr.hamburger-hr {
     .wwdc-video {
         height: 340px;
     }
-}
-
-.box-header-content {
-    margin-right: 10px;
-}
-.box-logo {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 434px;
-    height: 39px;
-}
-.tv-text{
-    font-size: 40px;
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: 0em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-
-.privacy-box-text{
-    font-size: 37px;
-line-height: 1.1;
-font-weight: 600;
-letter-spacing: 0em;
-font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-margin-top: 53px;
+    .box-margin {
+        margin-left: 0px;
+    }
+    .box-header-content {
+        margin-right: 0px;
+    }
+    .box-logo {
+        height: 34px;
+    }
+    .tv-text{
+        font-size: 32px
+    }
+    .privacy-box-text {
+        font-size: 31px;
+    }
 }
 
