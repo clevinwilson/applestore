@@ -564,11 +564,13 @@ hr.hamburger-hr {
     .section-hr{
         display:none
     }
+    .wwdc-video {
+        transform: scale(2.4);
+    } 
 
 }
 @media screen and (min-width: 768px) {
     .column-hr{
         display: none;
-    }
-    
+    }  
 }
