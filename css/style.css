@@ -344,7 +344,7 @@ body {
     height: 5%;
     border-radius: 6px;
     background: #1d1d1d;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.23536;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -469,6 +469,7 @@ hr.hamburger-hr {
     letter-spacing: 0em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+
 .privacy-box-text {
     font-size: 37px;
     line-height: 1.1;
@@ -504,7 +505,7 @@ hr.hamburger-hr {
     .box-logo {
         height: 34px;
     }
-    .tv-text{
+    .tv-text {
         font-size: 32px
     }
     .privacy-box-text {
@@ -512,20 +513,62 @@ hr.hamburger-hr {
     }
 }
 
-.footer-bg{
+.footer-bg {
     background-color: #f5f5f7;
 }
-.footer-head-text{
+
+.footer-head-text {
     font-size: 12px;
     line-height: 1.33337;
     font-weight: 400;
     letter-spacing: -.01em;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background-color: #f5f5f7;
     color: #8a8a8a;
-    min-width: 1024px;
     overflow: hidden;
     position: relative;
-    z-index: 1;
+}
+.directory-column-section-head{
+    font-size: 13px;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    margin-bottom: .8em;
+}
+.column-list{
+    list-style: none;
+    direction: rtl;
 }
 
+.column-list-item{
+    color: #515154;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 7px;
+}
+.more-shop{
+    font-size: 12px;
+    color: #515154;
+}
+.copyright{
+    font-size: 12px;
+    color: #515154;
+}
+@media screen and (max-width: 768px) {
+    .column-list{
+       display: none;
+    }
+    .directory-column-section-head{
+        font-weight: 100;
+    }
+    .section-hr{
+        display:none
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .column-hr{
+        display: none;
+    }
+    
+}
