@@ -70,3 +70,25 @@ function closeNav() {
     document.getElementById('closebtn').innerHTML = "="
     document.getElementById("mySidenav").style.opacity = "0.8";
 }
+
+// Shop and Learn
+function moreItems(){
+    var items= document.getElementById('list-1')
+        items.style.display='block'
+    var icon= document.getElementById('icon-1')
+    icon.style.transition='0.41s'
+    icon.style.transform='rotate(46deg)'
+     var icon=document.getElementById('column-1')
+     icon.onclick = listHide;
+   
+   }
+
+   function listHide(){
+    var item =document.getElementById('list-1')
+    item.style.display='none'
+    var icon= document.getElementById('icon-1')
+    icon.style.transition='0.3s'
+    icon.style.transform='rotate(0deg)'
+    var icon=document.getElementById('column-1')
+     icon.onclick = moreItems;
+   }
