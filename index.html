@@ -26,12 +26,13 @@
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="openNav()"><i
               style="font-size: 26px; font-weight: 100;" class="fas fa-equals"></i><a>
-              <a id="apple-logo" class="apple-logo"><img
-                  src="https://www.apple.com/ac/globalnav/6/en_IN/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg"
-                  style="    height: 53px;" alt=""></a>
-              <a class="text-light bag"><i style="font-weight: 100;    font-size: 20px;"
-                  class="nav-icon fas fa-shopping-bag"></i></a>
-
+              <div class="sm-header">
+                <a id="apple-logo" class="apple-logo"><img
+                    src="https://www.apple.com/ac/globalnav/6/en_IN/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg"
+                    style="    height: 53px;" alt=""></a>
+                <a id="sm-bag" onclick="opensmBag()" class="text-light bag"><i
+                    style="font-weight: 100;    font-size: 20px;" class="nav-icon fas fa-shopping-bag"></i></a>
+              </div>
               <input class="search-bar mb-3 p-3 mr-3 ml-3" type="text" placeholder="  🔍 Search apple.com">
               <hr class=" hamburger-hr">
               <a href="/">iMac</a>
@@ -51,6 +52,26 @@
               <hr class="ml-4 mr-4 hamburger-hr">
 
               <a href="/plans">Music</a>
+        </div>
+        <!-- Bag for sm devices -->
+        <div id="dropdown-content-sm" class=" p-3 mb-2 dropdown-content-sm">
+          <p class="bag-items-list m-4 p-1" style="color: #6e6e73; font-size: 13px;">Your Bag is empty.</p>
+          <div class="bag-options p-1  pl-4 pr-4">
+            <hr>
+            <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 fas fa-shopping-bag"></i>Bag</a>
+            <hr>
+            <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 far fa-heart"></i>
+              Favourites</a>
+            <hr>
+            <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 fas fa-box"></i>
+              Orders</a>
+            <hr>
+            <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 fas fa-cog"></i>
+              Account</a>
+            <hr>
+            <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 fas fa-user-circle"></i>Sign
+              in</a>
+          </div>
         </div>
 
         <!-- hamburger menu for small devices -->
@@ -107,19 +128,25 @@
               </li>
               <li class="nav-item-box nav-item">
                 <div class=" dropdown">
-                <i id="bag" onclick="openBag()" style="font-weight: 100;"class="text-white nav-icon fas fa-shopping-bag"></i>
-                  <div id="dropdown-content" class="p-3 dropdown-content">
-                    <p class="m-4 p-1"  style="color: #6e6e73; font-size: 13px;">Your Bag is empty.</p>
+                  <i id="bag" onclick="openBag()" style="font-weight: 100;"
+                    class="text-white nav-icon fas fa-shopping-bag"></i>
+                  <div id="dropdown-content" class="p-3 mb-2 dropdown-content">
+                    <p class="m-4 p-1" style="color: #6e6e73; font-size: 13px;">Your Bag is empty.</p>
                     <hr>
-                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-shopping-bag"></i>Bag</a>
+                    <a class="content-align" href="#"><i style="font-weight: 100;"
+                        class="mr-2 fas fa-shopping-bag"></i>Bag</a>
                     <hr>
-                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 far fa-heart"></i> Favourites</a>
+                    <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 far fa-heart"></i>
+                      Favourites</a>
                     <hr>
-                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-box"></i> Orders</a>
+                    <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 fas fa-box"></i>
+                      Orders</a>
                     <hr>
-                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-cog"></i> Account</a>
+                    <a class="content-align" href="#"><i style="font-weight: 100;" class="mr-2 fas fa-cog"></i>
+                      Account</a>
                     <hr>
-                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-user-circle"></i>Sign in</a>
+                    <a class="content-align" href="#"><i style="font-weight: 100;"
+                        class="mr-2 fas fa-user-circle"></i>Sign in</a>
                   </div>
                 </div>
               </li>
@@ -129,55 +156,6 @@
       </div>
     </div>
   </header>
-  <script>
-    function openBag() {
-      document.getElementById('bag').onclick = closeBag;
-      document.getElementById("navbar").style.opacity = "1.5";
-      document.getElementById("dropdown-content").style.display = "block";
-    }
-    function  closeBag() {
-      document.getElementById('bag').onclick = openBag;
-      document.getElementById("navbar").style.opacity = "0.8";
-      document.getElementById("dropdown-content").style.display = "none";
-     
-    }
-  </script>
-
-  <style>
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-    display: none; 
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 290px;
-    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
-    z-index: 1;
-    margin-top: 26px;
-    margin-left: -135px;
-    border-radius: 17px;
-    }
-    .content-align{
-      text-align: left;
-    }
-    
-    /* Links inside the dropdown */
-    .dropdown-content a {
-      color: black;
-      font-size: 15px;
-      color: #06c;
-      text-decoration: none;
-      display: block;
-    }
-    
- 
-
-    </style>
   <!-- ribborn -->
   <section class=" ribbon">
     <div class="bg-light container">
@@ -357,9 +335,10 @@
             <hr>
           </div>
           <div class="col-sm-1 col-md-3">
-            <h5 id="column-1" onclick="moreItems()" class="directory-column-section-head">Shop and Learn<i id="icon-1" class="list-items fas fa-plus"></i></h5>
+            <h5 id="column-1" onclick="moreItems()" class="directory-column-section-head">Shop and Learn<i id="icon-1"
+                class="list-items fas fa-plus"></i></h5>
             <hr class="column-hr">
-            <ul id="list-1"  class="ml-3 column-list">
+            <ul id="list-1" class="ml-3 column-list">
               <li class="column-list-item">Mac</li>
               <li class="column-list-item">iPhone</li>
               <li class="column-list-item">Watch</li>
@@ -368,7 +347,8 @@
             </ul>
           </div>
           <div class=" col-md-3">
-            <h5 id="column-2" onclick="moreItems(2)" class="directory-column-section-head"> Services<i id="icon-2"  class="list-items fas fa-plus"></i></h5>
+            <h5 id="column-2" onclick="moreItems(2)" class="directory-column-section-head"> Services<i id="icon-2"
+                class="list-items fas fa-plus"></i></h5>
             <hr class="column-hr">
             <ul id="list-2" class="ml-3  column-list">
               <li class="column-list-item">Apple Music</li>
