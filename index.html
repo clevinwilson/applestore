@@ -106,8 +106,22 @@
                     class=" fa fa-search"></i></a>
               </li>
               <li class="nav-item-box nav-item">
-                <a class="text-white  nav-link" href="#"><i style="font-weight: 100;"
-                    class="nav-icon fas fa-shopping-bag"></i></a>
+                <div class=" dropdown">
+                <i id="bag" onclick="openBag()" style="font-weight: 100;"class="text-white nav-icon fas fa-shopping-bag"></i>
+                  <div id="dropdown-content" class="p-3 dropdown-content">
+                    <p class="m-4 p-1"  style="color: #6e6e73; font-size: 13px;">Your Bag is empty.</p>
+                    <hr>
+                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-shopping-bag"></i>Bag</a>
+                    <hr>
+                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 far fa-heart"></i> Favourites</a>
+                    <hr>
+                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-box"></i> Orders</a>
+                    <hr>
+                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-cog"></i> Account</a>
+                    <hr>
+                    <a class="content-align" href="#"><i  style="font-weight: 100;"class="mr-2 fas fa-user-circle"></i>Sign in</a>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -115,6 +129,55 @@
       </div>
     </div>
   </header>
+  <script>
+    function openBag() {
+      document.getElementById('bag').onclick = closeBag;
+      document.getElementById("navbar").style.opacity = "1.5";
+      document.getElementById("dropdown-content").style.display = "block";
+    }
+    function  closeBag() {
+      document.getElementById('bag').onclick = openBag;
+      document.getElementById("navbar").style.opacity = "0.8";
+      document.getElementById("dropdown-content").style.display = "none";
+     
+    }
+  </script>
+
+  <style>
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    margin-top: 26px;
+    margin-left: -135px;
+    border-radius: 17px;
+    }
+    .content-align{
+      text-align: left;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      font-size: 15px;
+      color: #06c;
+      text-decoration: none;
+      display: block;
+    }
+    
+ 
+
+    </style>
   <!-- ribborn -->
   <section class=" ribbon">
     <div class="bg-light container">
@@ -308,33 +371,35 @@
             <h5 id="column-2" onclick="moreItems(2)" class="directory-column-section-head"> Services<i id="icon-2"  class="list-items fas fa-plus"></i></h5>
             <hr class="column-hr">
             <ul id="list-2" class="ml-3  column-list">
-              <li class="column-list-item">Mac</li>
-              <li class="column-list-item">iPhone</li>
-              <li class="column-list-item">Watch</li>
-              <li class="column-list-item">AirPods</li>
-              <li class="column-list-item">Tv</li>
+              <li class="column-list-item">Apple Music</li>
+              <li class="column-list-item">Apple TV+</li>
+              <li class="column-list-item">Apple Arcade</li>
+              <li class="column-list-item">iCloud</li>
+              <li class="column-list-item">Apple One</li>
+              <li class="column-list-item">Apple Books</li>
+              <li class="column-list-item">App Store</li>
             </ul>
           </div>
           <div class=" col-md-3">
             <h5 class="directory-column-section-head">Apple Store<i class="list-items fas fa-plus"></i></h5>
             <hr class="column-hr">
             <ul class="ml-3  column-list">
-              <li class="column-list-item">Mac</li>
-              <li class="column-list-item">iPhone</li>
-              <li class="column-list-item">Watch</li>
-              <li class="column-list-item">AirPods</li>
-              <li class="column-list-item">Tv</li>
+              <li class="column-list-item">Shop Online</li>
+              <li class="column-list-item">Ways to Buy</li>
+              <li class="column-list-item">Apple Trade In</li>
+              <li class="column-list-item">Recycling Programme</li>
+              <li class="column-list-item">Order Status</li>
+              <li class="column-list-item">Shopping Help</li>
             </ul>
           </div>
           <div class=" col-md-3">
             <h5 class="directory-column-section-head"> Apple Values<i class="list-items fas fa-plus"></i></h5>
             <hr class="column-hr">
             <ul class="ml-3  column-list">
-              <li class="column-list-item">Mac</li>
-              <li class="column-list-item">iPhone</li>
-              <li class="column-list-item">Watch</li>
-              <li class="column-list-item">AirPods</li>
-              <li class="column-list-item">Tv</li>
+              <li class="column-list-item">Accessibility</li>
+              <li class="column-list-item">Environment</li>
+              <li class="column-list-item">Privacy</li>
+              <li class="column-list-item">Supplier Responsibility</li>
             </ul>
           </div>
           <div class="col-md-12">
