@@ -649,6 +649,9 @@ hr.hamburger-hr {
 }
 
 
+
+
+
 /* imac page */
 
 .imac-promo-title{
@@ -700,6 +703,45 @@ hr.hamburger-hr {
     }
 }
 
+/* imac page - product listing css */
+
+/* headline font style */
+.typography-headline {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.product-listing{
+    background-color: #fafafa;
+    padding: 100px;
+}
+.tabnav-items{
+    overflow:hidden;
+    margin: 0px 0px 0px -43px;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #6e6e73;
+}
+.tabnav-item{
+    list-style: none;
+    display:inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .product-listing{
+        padding: 32px
+    }
+    .typography-headline{
+        font-size: 32px;
+    }
+}
 
 
 
