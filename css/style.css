@@ -720,18 +720,29 @@ hr.hamburger-hr {
     padding: 100px;
 }
 .tabnav-items{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
     overflow:hidden;
-    margin: 0px 0px 0px -43px;
     font-size: 17px;
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.021em;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #6e6e73;
+    
 }
 .tabnav-item{
     list-style: none;
     display:inline-block;
+    border-bottom: 1px solid #d2d2d7;
+    
+    
+}
+.compare-gallery-notebook-trigger{
+    color: #6e6e73;
+    padding: .5em 1em;
+
 }
 
 @media screen and (max-width: 768px) {
