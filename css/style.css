@@ -716,8 +716,9 @@ hr.hamburger-hr {
 
 
 .product-listing{
-    background-color: #fafafa;
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
 }
 .tabnav-items{
     padding: 0px 0px 0px 0px;
@@ -736,12 +737,14 @@ hr.hamburger-hr {
     list-style: none;
     display:inline-block;
     border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 8px;
+    cursor: pointer;
     
     
 }
-.compare-gallery-notebook-trigger{
+.product-trigger{
     color: #6e6e73;
-    padding: .5em 1em;
+    padding: .5em 2em;
 
 }
 
@@ -751,6 +754,63 @@ hr.hamburger-hr {
     }
     .typography-headline{
         font-size: 32px;
+    }
+}
+
+.product-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+}
+
+.device-name{
+    font-size: 22px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: 0.019em;
+}
+
+.device-price{
+    color: #565656;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.device-colors{
+    margin-top: -15px;
+}
+
+.device-buy-btn{
+    font-size: 11px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    width: 46px;
+    letter-spacing: 0.01em;
+    border-radius: 20px;
+    background-color: #0071e3;
+    border-color: #0071e3;
+    height: 23px;
+}
+.prduct-buy{
+    border-bottom: 1px solid #d2d2d7;
+    padding: 13px;
+    padding-bottom: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    .product-image{
+        width: 137px;
+        margin-bottom: 33px;
+    }
+    .device-name{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .device-colors{
+        margin-top: -12px;
     }
 }
 

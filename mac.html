@@ -203,11 +203,11 @@
         </div>
     </section>
 
-    <!-- product listing -->
-    <section>
-        <div class="row">
-            <div class="col-md-12 product-listing">
-                <div class="container">
+    <!-- product listing trigger -->
+    <section style="background-color: #fafafa;">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-12 product-listing">
                     <div class="heading text-center ">
                         <h2 class="typography-headline">Which Mac is right for you?</h2>
                         <div style="font-size: 17px;" class="m-4 banner-links text-center  ">
@@ -215,19 +215,56 @@
                                     class="banner-links-icons font-weight-normal fas fa-chevron-right"></i></a>
                         </div>
                     </div>
-                    <div class=" mt-3 tablist-wrapper">
+                    <div class=" mt-3 m-1 tablist-wrapper">
                         <ul style=" padding: 0px 0px 0px 0px;  display: flex;justify-content: center;"
                             class="tadbnav-items">
                             <li class="tabnav-item ">
-                                <p class="compare-gallery-notebook-trigger" href="#">Notebook</p>
+                                <a class="product-trigger text-secondary notebook" id="notebook">Notebook</a>
                             </li>
                             <li class="tabnav-item  ">
-                                <p class="compare-gallery-notebook-trigger" href="#">Desktop</p>
+                                <a class="product-trigger text-secondary desktop" id="desktop">Desktop</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div class="row m-1">
+                <div class="col-md-4 col-6 ">
+                    <div class="product-image-outer text-center">
+                        <img class="product-image" src="/images/compare_mba__gdncw5gbxoq6_large.png"
+                            alt="Product image">
+                        <div class="device-title">
+                            <h3 class="device-name">MacBook Air</h3>
+                            <p class="device-price ">From ₹92900*</p>
+                            <img class="device-colors" src="/images/compare_swatches_three_colors__e2hki8qb5cia_large.png" alt="">
+                            <div class="prduct-buy">
+                                <a href="" class="device-buy-btn  btn btn-primary">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="product-image-outer text-center">
+                        <img class="product-image" src="/images/compare_mbp13__geounnnz6oa6_large.png"
+                            alt="Product image">
+                            <div class="device-title">
+                                <h3 class="device-name">MacBook Pro</h3>
+                                <p class="device-price ">From ₹110000*</p>
+                                <img class="device-colors" src="/images/compare_swatches_three_colors__e2hki8qb5cia_large.png" alt="">
+                                <div class="prduct-buy">
+                                    <a href="" class="device-buy-btn  btn btn-primary">Buy</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product listing -->
+    <section class="product-listing-section">
+        <div class="container">
+
         </div>
     </section>
 
@@ -353,13 +390,28 @@
 
     }
 
+
+    //  notebook or desktop page trigger
+    var notebook = document.querySelector('#notebook');
+    notebook.addEventListener('click', () => {
+        alert("notebook");
+    })
+
+    var desktop = document.querySelector('#desktop');
+    desktop.addEventListener('click', () => {
+        alert('desktop');
+    })
+
+
+
+
 </script>
 
 
 <!-- notebook or desktop selector  -->
 <style>
     .tadbnav-items li.active {
-        border-bottom: 2px solid black;
+        border-bottom: 1px solid black;
     }
 </style>
 
