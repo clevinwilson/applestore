@@ -794,11 +794,48 @@ hr.hamburger-hr {
     border-color: #0071e3;
     height: 23px;
 }
-.prduct-buy{
+.product-buy{
     border-bottom: 1px solid #d2d2d7;
     padding: 13px;
     padding-bottom: 27px;
 }
+
+.device-details-head{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.device-details-text{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: .03em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #383838;
+    margin-bottom: 0px;
+}
+
+.device-subtext{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #a3a3a3;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+.product-link{
+    padding: 23px;
+    margin-top: 45px;
+    border-top: 1px solid #d2d2d7;
+}
+.product-image-outer{
+    margin-bottom: 88px;
+}
+
 
 @media screen and (max-width: 768px) {
     .product-image{
@@ -811,6 +848,10 @@ hr.hamburger-hr {
     }
     .device-colors{
         margin-top: -12px;
+    }
+    .device-subtext{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
