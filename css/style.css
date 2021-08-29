@@ -849,6 +849,7 @@ hr.hamburger-hr {
     .device-name{
         font-size: 19px;
         font-weight: 500;
+        
     }
     .device-colors{
         margin-top: -12px;
@@ -866,11 +867,23 @@ hr.hamburger-hr {
 
 .accessories-head-text{
     font-size: 25px;
+    letter-spacing: .02em;
 }
 .accessories-text{
     font-size: 46px;
+    letter-spacing: .02em;
 }
-
+.macos{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: .02em;
+    padding: 74px;
+}
+.macos-outer{
+    padding: 60px;
+    letter-spacing: .02em;
+}
 
 @media screen and (max-width: 768px) {
     .accessories-head-text{
@@ -878,13 +891,34 @@ hr.hamburger-hr {
     }
     .accessories-text{
         font-size: 30px;
+        letter-spacing: .0em;
     }
     .accessories-image{
         object-fit: cover;
         width: 100%;
-        height: 268px;
+        height: 240px
+    }
+    .macos-outer{
+        padding: 0px;
+    }
+    .macos{
+        margin-top: 25px;
+        padding: 15px;
     }
 }
 
+/* macos section */
+.macos-section{
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+    .macos-image{
+        height: 200px;
+    }
+    .accessories-head-text{
+        font-size: 20px;
+    }
+}
 
 
