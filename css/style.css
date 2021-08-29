@@ -762,6 +762,8 @@ hr.hamburger-hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 46px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .device-name{
