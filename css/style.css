@@ -933,4 +933,95 @@ hr.hamburger-hr {
     }
 }
 
+/* chapter nav */
+.chapternav{
+    margin-top: 60px;
+}
+.chapter-icon{
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.chapter-label{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+}
+.chapter-item{
+    list-style-type: none;
+    
+    display: inline-block;
+
+}
+.chapternav-item-imac-24{
+    width: 45px;
+    height: 54px;
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-macbook-pro-13{
+    width: 51px;
+    height: 54px;
+    background-size: 51px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-imac-27{
+    width: 48px;
+    height: 54px;
+    background-size: 48px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-mac-pro{
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-mac-mini {
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-repeat: no-repeat;
+
+}
+.chapternav-item-compare {
+    width: 74px;
+    height: 54px;
+    background-size: 74px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-pro-display-xdr{
+    width: 46px;
+    height: 54px;
+    background-size: 46px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-accessories{
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+    background-repeat: no-repeat;
+}
+.chapternav-item-macos{
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+}
+/* scrollbar */
+.scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollmenu::-webkit-scrollbar {
+    display: none;
+}
+
+
 
