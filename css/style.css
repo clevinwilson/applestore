@@ -1023,5 +1023,12 @@ hr.hamburger-hr {
     display: none;
 }
 
+@media screen and (max-width: 768px) {
+    .chapternav-list-sm-margin{
+        margin-right: 50px !important;
+    }
+}
+
+
 
 
