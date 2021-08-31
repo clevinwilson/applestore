@@ -47,7 +47,7 @@ body {
 }
 
 .ribbon-text {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 1333px) {
@@ -935,7 +935,7 @@ hr.hamburger-hr {
 
 /* chapter nav */
 .chapternav{
-    margin-top: 60px;
+    
 }
 .chapter-icon{
     width: 52px;
@@ -1018,6 +1018,7 @@ hr.hamburger-hr {
 .scrollmenu{
     overflow: auto;
     white-space: nowrap;
+    margin-top: 60px;
 }
 .scrollmenu::-webkit-scrollbar {
     display: none;
@@ -1028,6 +1029,41 @@ hr.hamburger-hr {
         margin-right: 50px !important;
     }
 }
+
+/* //buttons */
+.paddle{
+    font-size: 17px;
+    line-height: 1.76471;
+    font-weight: 300;
+    letter-spacing: 0em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border: 0 solid #d2d2d7;
+    border-radius: 0;
+    color: #1d1d1f;
+    opacity: 1;
+    text-align: center;
+    width: 33px;
+    transition: opacity 150ms ease-out;
+}
+.right-paddle{
+    right: 0;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    width: 2em;
+    height: 119px;
+    background-image: linear-gradient(90deg , #ffffff, #d9d9d9);
+}
+.left-paddle{
+    left: 0;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    width: 2em;
+    height: 119px;
+    background-image: linear-gradient(90deg , #d9d9d9, #ffffff);
+}
+
 
 
 
