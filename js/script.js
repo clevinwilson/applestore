@@ -121,3 +121,6 @@ function closesmBag() {
     document.getElementById("dropdown-content-sm").style.display = "none";
 
 }
+
+
+
