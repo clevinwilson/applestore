@@ -1029,6 +1029,9 @@ hr.hamburger-hr {
         margin-right: 50px !important;
     }
 }
+.chpater{
+    scroll-behavior: smooth
+}
 
 /* //buttons */
 .paddle{
@@ -1052,7 +1055,7 @@ hr.hamburger-hr {
     bottom: 0;
     width: 2em;
     height: 119px;
-    background-image: linear-gradient(90deg , #ffffff, #d9d9d9);
+    background-image: linear-gradient(90deg , #ffffff, #e0e0e0);
 }
 .left-paddle{
     left: 0;
@@ -1061,8 +1064,9 @@ hr.hamburger-hr {
     bottom: 0;
     width: 2em;
     height: 119px;
-    background-image: linear-gradient(90deg , #d9d9d9, #ffffff);
+    background-image: linear-gradient(90deg , #e0e0e0, #ffffff);
 }
+
 
 
 

@@ -17,7 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body onresize="changeImage()">
+<body onresize="changeElement()">
     <header style=" line-height: 0.8;">
         <div class="row">
             <div class="col-md-12">
@@ -169,12 +169,12 @@
     </header>
 
     <!-- chapter navbar -->
-<section class="scrollmenu">
+<section id="chapter" class="chpater scrollmenu">
     <div class="container text-center">
         <div class="row">
             <div class="chapternav">
                 <ul class="chpater-items">
-                    <li class="chapter-item ml-2 m-3 mr-2">
+                    <li class="chapter-item ml m-3 mr-2">
                         <img class="chapter-icon" src="images/macbookair_light__fj8r9488gr6u_large.svg" alt="">
                         <p class="chapter-label">MacBook Air</p>
                     </li>
@@ -214,27 +214,37 @@
                         <img class="chapter-icon chapternav-item-accessories"src="images/mac_accessories_light__bow96z0024qa_large.svg" alt="">
                         <p class="chapter-label">Accessories</p>
                     </li>
-                    <li class="chapter-item ml-3 m-3 mr-3 chapternav-list-sm-margin ">
+                    <li class="chapter-item ml-3 m-3 mr-5 chapternav-list-sm-margin ">
                         <img class="chapter-icon chapternav-item-macos" src="images/mac_os__e6brlkg0n10m_large.svg" alt="">
                         <p class="chapter-label">Big Sur</p>
                     </li>
                     
                 </ul>
                
-                    <button class="left-paddle paddle hidden">
-                        <i class="bi bi-chevron-left"></i>
+                    <button id="left-paddle" style="outline: none; border-right: 1px solid #e8e8e8;" class="left-paddle paddle hidden">
+                        <i class="bi bi-chevron-left paddle-icon"></i>
                     </button>
-                    <button class="right-paddle paddle">
-                        <i class="bi bi-chevron-right"></i>
+                    <button id="right-paddle" style="outline: none;border-left: 1px solid #e8e8e8;" class="right-paddle paddle">
+                        <i class="bi bi-chevron-right paddle-icon"></i>
                     </button>
                 
             </div>
+
         </div>
     </div>
 </section>
-<style>
-    
-</style>
+
+<script>
+    var leftButton = document.querySelector('.left-paddle');
+    leftButton.addEventListener('click',()=>{
+        document.getElementById('chapter').scrollLeft -= 250;
+    })
+    var rightButton = document.querySelector('.right-paddle');
+    rightButton.addEventListener('click',()=>{
+        document.getElementById('chapter').scrollLeft += 250;
+    })
+</script>
+
 
 
     <!-- ribborn -->
@@ -678,8 +688,21 @@
 
 
 </body>
+
+<!-- //paddle -->
+<style>
+    .left-paddle{
+        display: none;
+    }
+    .right-paddle{
+        display: none;
+    }
+</style>
+
+
+
 <script>
-    function changeImage() {
+    function changeElement() {
         if (screen.width < 735) {
             var imacImage = document.querySelector("#imacImage").src = "images/hero_imac_24__eq5phrdpwjyq_small_2x.jpg";
 
@@ -688,6 +711,19 @@
             var imacImage = document.querySelector("#imacImage").src = "images/hero_imac_24__eq5phrdpwjyq_large.jpg";
 
         }
+
+        //paddile change when based on scrollbar active or not
+
+        let scrollBar =document.getElementById('chapter')
+      let hBar = scrollBar.scrollWidth > scrollBar.clientWidth;
+      if(hBar){
+          document.getElementById('left-paddle').style.display='block'
+          document.getElementById('right-paddle').style.display='block'
+      }else{
+        document.getElementById('left-paddle').style.display='none'
+        document.getElementById('right-paddle').style.display='none'
+      }
+      
 
 
     }
@@ -718,7 +754,16 @@
     })
     document.getElementById("desktop-section").style.display = "none";
     
-
+// activat paddi 
+var scrollBar =document.getElementById('chapter')
+      var hBar = scrollBar.scrollWidth > scrollBar.clientWidth;
+      if(hBar){
+          document.getElementById('left-paddle').style.display='block'
+          document.getElementById('right-paddle').style.display='block'
+      }else{
+        document.getElementById('left-paddle').style.display='none'
+        document.getElementById('right-paddle').style.display='none'
+      }
 
 
 
