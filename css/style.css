@@ -953,6 +953,14 @@ hr.hamburger-hr {
     display: block;
     margin: 0;
 }
+.chapternav-link{
+    text-decoration: none;
+    color: black;
+}
+.chapternav-link :hover{
+    color: #0071e3;
+}
+
 .chapter-item{
     list-style-type: none;
     
