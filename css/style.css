@@ -1074,6 +1074,46 @@ hr.hamburger-hr {
     height: 119px;
     background-image: linear-gradient(90deg , #e0e0e0, #ffffff);
 }
+.chapter-iphone-12-pro{
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    width: 37px;
+}
+.chapter-iphone-12{
+    background-size: 36px 54px;
+    background-repeat: no-repeat;
+    width: 36px;
+}
+.chapter-iphone-se{
+    background-size: 19px 54px;
+    background-repeat: no-repeat;
+    width: 20px;
+}
+.chapter-iphone-11{
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+    width: 22px;
+}
+.chapter-iphone-xr{
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+    width: 22px;
+}
+.chapter-ios{
+    background-size: 32px 54px;
+    background-repeat: no-repeat;
+    width: 32px;
+}
+.chapter-iphone-accessories{
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+    width: 35px;
+}
+.chapter-iphone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
