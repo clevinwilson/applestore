@@ -1115,6 +1115,46 @@ hr.hamburger-hr {
     margin-right: auto;
 }
 
+/* iphone 12 pro banner */
+.iphone-sub-text{
+    font-size: 24px
+}
+.iphone-header-text{
+    font-size: 48px
+}
+.iphone-12{
+    width: 100%;
+    object-fit: cover;
+}
+.iphone-12-pro{
+    width: 100%;
+    object-fit: cover;
+}
+.image-compare-iphone-12-pro{
+    width: 199px;
+    height: 256px;
+    background-size: 199px 256px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+    .iphone-12-pro{
+        width: 260px;
+        height: 100%;
+    }
+    .iphone-sub-text{
+        font-size: 19px
+    }
+    .iphone-header-text{
+        font-size: 40px
+    }
+    .image-compare-iphone-12-pro {
+        width: 130px;
+        height: 168px;
+        background-size: 130px 168px;
+        background-repeat: no-repeat;
+    }
+}
+
 
 
 
