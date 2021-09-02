@@ -1227,7 +1227,7 @@ hr.hamburger-hr {
 
 @media screen and (max-width: 768px) {
     .ios-banner {
-        background: url(/images/ios15_preview__f7lrpcnc3eum_small_2x.jpg) repeat 0 0;
+        background: url(images/ios15_preview__f7lrpcnc3eum_small_2x.jpg) repeat 0 0;
         object-fit: cover;
         width: 100%;
         height: 620px;
