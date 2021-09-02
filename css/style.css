@@ -1279,7 +1279,7 @@ hr.hamburger-hr {
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
-    width: 450px;
+    width: 100%;
     height: auto;
     min-height: 450px;
 }
