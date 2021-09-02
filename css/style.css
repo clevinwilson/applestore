@@ -1248,3 +1248,51 @@ hr.hamburger-hr {
     }
     
 }
+
+/* buy prodcut page */
+.title-price-nav{
+    background-color: #ffffff;
+}
+.title-divider{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 6px;
+
+}
+.product-title-name{
+    font-size: 21px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.product-title-price{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .product-title-name{
+        font-size: 19px;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    } 
+    .title-containers{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .title-divider{
+        padding: 0px;
+    }
+    .product-title-price{
+        font-size: 14px;
+        
+    }
+    
+}
+
