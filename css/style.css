@@ -648,43 +648,43 @@ hr.hamburger-hr {
     }
 }
 
-
-
-
-
 /* imac page */
 
-.imac-promo-title{
+.imac-promo-title {
     font-size: 17px;
     color: #f56300;
     font-weight: 600;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     border-color: #bf4800;
 }
-.imac-header-text{
+
+.imac-header-text {
     color: black;
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
     letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.imac-sub-text{
+
+.imac-sub-text {
     font-size: 26px;
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.imac-price{
+
+.imac-price {
     color: black;
     font-size: 17px;
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.buy-btn{
+
+.buy-btn {
     width: 64px;
     border-radius: 20px;
     background-color: #0071e3;
@@ -692,13 +692,13 @@ hr.hamburger-hr {
 }
 
 @media screen and (max-width: 768px) {
-    .imac-image{
+    .imac-image {
         width: 100%;
     }
-    .imac-header-text{
+    .imac-header-text {
         font-size: 32px;
     }
-    .imac-sub-text{
+    .imac-sub-text {
         font-size: 21px;
     }
 }
@@ -706,58 +706,57 @@ hr.hamburger-hr {
 /* imac page - product listing css */
 
 /* headline font style */
+
 .typography-headline {
     font-size: 48px;
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-
-.product-listing{
+.product-listing {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
 }
-.tabnav-items{
+
+.tabnav-items {
     padding: 0px 0px 0px 0px;
     display: flex;
     justify-content: center;
-    overflow:hidden;
+    overflow: hidden;
     font-size: 17px;
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.021em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #6e6e73;
-    
 }
-.tabnav-item{
+
+.tabnav-item {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     border-bottom: 1px solid #d2d2d7;
     padding-bottom: 8px;
     cursor: pointer;
-    
-    
 }
-.product-trigger{
+
+.product-trigger {
     color: #6e6e73;
     padding: .5em 2em;
-
 }
 
 @media screen and (max-width: 768px) {
-    .product-listing{
+    .product-listing {
         padding: 32px
     }
-    .typography-headline{
+    .typography-headline {
         font-size: 32px;
     }
 }
 
-.product-image{
+.product-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -766,26 +765,27 @@ hr.hamburger-hr {
     width: 100%;
 }
 
-.device-name{
+.device-name {
     font-size: 22px;
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: 0.019em;
 }
 
-.device-price{
+.device-price {
     color: #565656;
     font-size: 14px;
     line-height: 1.42859;
     font-weight: 400;
     letter-spacing: 0.05em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.device-colors{
+
+.device-colors {
     margin-top: -15px;
 }
 
-.device-buy-btn{
+.device-buy-btn {
     font-size: 11px;
     margin-bottom: auto;
     padding-bottom: 22px;
@@ -796,258 +796,280 @@ hr.hamburger-hr {
     border-color: #0071e3;
     height: 23px;
 }
-.product-buy{
+
+.product-buy {
     border-bottom: 1px solid #d2d2d7;
     padding: 13px;
     padding-bottom: 27px;
 }
 
-.device-details-head{
+.device-details-head {
     font-size: 21px;
     line-height: 1.19048;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.device-details-text{
+
+.device-details-text {
     font-size: 14px;
     line-height: 1.42859;
     font-weight: 400;
     letter-spacing: .03em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #383838;
     margin-bottom: 0px;
 }
 
-.device-subtext{
+.device-subtext {
     font-size: 14px;
     line-height: 1.42859;
     font-weight: 400;
     letter-spacing: -.016em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #a3a3a3;
     padding-left: 23%;
     padding-right: 23%;
 }
-.product-link{
+
+.product-link {
     padding: 23px;
     margin-top: 45px;
     border-top: 1px solid #d2d2d7;
 }
-.product-image-outer{
+
+.product-image-outer {
     margin-bottom: 88px;
 }
+
 .device-accessories-section {
     background-color: #f2f2f2;
 }
 
-
-
 @media screen and (max-width: 768px) {
-    .product-image{
+    .product-image {
         width: 137px;
         margin-bottom: 33px;
     }
-    .device-name{
+    .device-name {
         font-size: 19px;
         font-weight: 500;
-        
     }
-    .device-colors{
+    .device-colors {
         margin-top: -12px;
     }
-    .device-subtext{
+    .device-subtext {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .accessories-head-text{
+    .accessories-head-text {
         font-size: 21px;
     }
 }
 
 /* mac accessories section */
 
-.accessories-head-text{
+.accessories-head-text {
     font-size: 25px;
     letter-spacing: .02em;
 }
-.accessories-text{
+
+.accessories-text {
     font-size: 46px;
     letter-spacing: .02em;
 }
-.macos{
+
+.macos {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
     letter-spacing: .02em;
     padding: 74px;
 }
-.macos-outer{
+
+.macos-outer {
     padding: 60px;
     letter-spacing: .02em;
 }
-.accessories-image{
+
+.accessories-image {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    .accessories-head-text{
+    .accessories-head-text {
         font-size: 21px;
     }
-    .accessories-text{
+    .accessories-text {
         font-size: 30px;
         letter-spacing: .0em;
     }
-    .accessories-image{
+    .accessories-image {
         object-fit: cover;
         width: 100%;
         height: 240px
     }
-    .macos-outer{
+    .macos-outer {
         padding: 0px;
     }
-    .macos{
+    .macos {
         margin-top: 25px;
         padding: 15px;
     }
 }
 
 /* macos section */
-.macos-section{
+
+.macos-section {
     background-color: #f2f2f2;
 }
-.macos-image{
+
+.macos-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
-    .macos-image{
+    .macos-image {
         height: 200px;
     }
-    .accessories-head-text{
+    .accessories-head-text {
         font-size: 20px;
     }
 }
 
 /* chapter nav */
-.chapternav{
-    
-}
-.chapter-icon{
+
+.chapternav {}
+
+.chapter-icon {
     width: 52px;
     height: 54px;
     background-size: 52px 54px;
     background-repeat: no-repeat;
     object-fit: cover;
 }
-.chapter-label{
+
+.chapter-label {
     font-size: 12px;
     line-height: 1.33337;
     font-weight: 400;
     letter-spacing: -.01em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     display: block;
     margin: 0;
 }
-.chapternav-link{
+
+.chapternav-link {
     text-decoration: none;
     color: black;
 }
-.chapternav-link :hover{
+
+.chapternav-link :hover {
     color: #0071e3;
 }
 
-.chapter-item{
+.chapter-item {
     list-style-type: none;
-    
     display: inline-block;
-
 }
-.chapternav-item-imac-24{
+
+.chapternav-item-imac-24 {
     width: 45px;
     height: 54px;
     background-size: 45px 54px;
     background-repeat: no-repeat;
 }
-.chapternav-item-macbook-pro-13{
+
+.chapternav-item-macbook-pro-13 {
     width: 51px;
     height: 54px;
     background-size: 51px 54px;
     background-repeat: no-repeat;
 }
-.chapternav-item-imac-27{
+
+.chapternav-item-imac-27 {
     width: 48px;
     height: 54px;
     background-size: 48px 54px;
     background-repeat: no-repeat;
 }
-.chapternav-item-mac-pro{
+
+.chapternav-item-mac-pro {
     width: 35px;
     height: 54px;
     background-size: 35px 54px;
     background-repeat: no-repeat;
 }
+
 .chapternav-item-mac-mini {
     width: 28px;
     height: 54px;
     background-size: 28px 54px;
     background-repeat: no-repeat;
-
 }
+
 .chapternav-item-compare {
     width: 74px;
     height: 54px;
     background-size: 74px 54px;
     background-repeat: no-repeat;
 }
-.chapternav-item-pro-display-xdr{
+
+.chapternav-item-pro-display-xdr {
     width: 46px;
     height: 54px;
     background-size: 46px 54px;
     background-repeat: no-repeat;
 }
-.chapternav-item-accessories{
+
+.chapternav-item-accessories {
     width: 33px;
     height: 54px;
     background-size: 33px 54px;
     background-repeat: no-repeat;
 }
-.chapternav-item-macos{
+
+.chapternav-item-macos {
     width: 35px;
     height: 54px;
     background-size: 35px 54px;
     background-repeat: no-repeat;
 }
+
 /* scrollbar */
-.scrollmenu{
+
+.scrollmenu {
     overflow: auto;
     white-space: nowrap;
     margin-top: 60px;
 }
+
 .scrollmenu::-webkit-scrollbar {
     display: none;
 }
 
 @media screen and (max-width: 768px) {
-    .chapternav-list-sm-margin{
+    .chapternav-list-sm-margin {
         margin-right: 50px !important;
     }
 }
-.chpater{
+
+.chpater {
     scroll-behavior: smooth
 }
 
 /* //buttons */
-.paddle{
+
+.paddle {
     font-size: 17px;
     line-height: 1.76471;
     font-weight: 300;
     letter-spacing: 0em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     border: 0 solid #d2d2d7;
     border-radius: 0;
     color: #1d1d1f;
@@ -1056,95 +1078,111 @@ hr.hamburger-hr {
     width: 33px;
     transition: opacity 150ms ease-out;
 }
-.right-paddle{
+
+.right-paddle {
     right: 0;
     position: absolute;
     top: 60px;
     bottom: 0;
     width: 2em;
     height: 119px;
-    background-image: linear-gradient(90deg , #ffffff, #e0e0e0);
+    background-image: linear-gradient(90deg, #ffffff, #e0e0e0);
 }
-.left-paddle{
+
+.left-paddle {
     left: 0;
     position: absolute;
     top: 60px;
     bottom: 0;
     width: 2em;
     height: 119px;
-    background-image: linear-gradient(90deg , #e0e0e0, #ffffff);
+    background-image: linear-gradient(90deg, #e0e0e0, #ffffff);
 }
-.chapter-iphone-12-pro{
+
+.chapter-iphone-12-pro {
     background-size: 37px 54px;
     background-repeat: no-repeat;
     width: 37px;
 }
-.chapter-iphone-12{
+
+.chapter-iphone-12 {
     background-size: 36px 54px;
     background-repeat: no-repeat;
     width: 36px;
 }
-.chapter-iphone-se{
+
+.chapter-iphone-se {
     background-size: 19px 54px;
     background-repeat: no-repeat;
     width: 20px;
 }
-.chapter-iphone-11{
+
+.chapter-iphone-11 {
     background-size: 22px 54px;
     background-repeat: no-repeat;
     width: 22px;
 }
-.chapter-iphone-xr{
+
+.chapter-iphone-xr {
     background-size: 22px 54px;
     background-repeat: no-repeat;
     width: 22px;
 }
-.chapter-ios{
+
+.chapter-ios {
     background-size: 32px 54px;
     background-repeat: no-repeat;
     width: 32px;
 }
-.chapter-iphone-accessories{
+
+.chapter-iphone-accessories {
     background-size: 35px 54px;
     background-repeat: no-repeat;
     width: 35px;
 }
-.chapter-iphone{
+
+.chapter-iphone {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* iphone 12 pro banner */
-.iphone-sub-text{
+
+.iphone-sub-text {
     font-size: 24px
 }
-.iphone-header-text{
+
+.iphone-header-text {
     font-size: 48px
 }
-.iphone-12{
+
+.iphone-12 {
     width: 100%;
     object-fit: cover;
 }
-.iphone-12-pro{
+
+.iphone-12-pro {
     width: 100%;
     object-fit: cover;
 }
-.image-compare-iphone-12-pro{
+
+.image-compare-iphone-12-pro {
     width: 199px;
     height: 256px;
     background-size: 199px 256px;
     background-repeat: no-repeat;
 }
+
 @media screen and (max-width: 768px) {
-    .iphone-12-pro{
+    .iphone-12-pro {
         width: 260px;
         height: 100%;
     }
-    .iphone-sub-text{
+    .iphone-sub-text {
         font-size: 19px
     }
-    .iphone-header-text{
+    .iphone-header-text {
         font-size: 40px
     }
     .image-compare-iphone-12-pro {
@@ -1156,7 +1194,57 @@ hr.hamburger-hr {
 }
 
 
+/* ios banner */
+
+.ios-banner {
+    background: url(/images/ios15_preview__f7lrpcnc3eum_large_2x.jpg) repeat 0 0;
+    object-fit: cover;
+    height: 560px;
+    width: 100%;
+    background-size: 100% 560px;
+    background-repeat: no-repeat;
+    background-size:     cover;
+    background-position: center center
+}
+
+.ios-header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ios-header-text {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.ios-sub-text{
+    font-size: 21px;
+}
 
 
-
-
+@media screen and (max-width: 768px) {
+    .ios-banner {
+        background: url(/images/ios15_preview__f7lrpcnc3eum_small_2x.jpg) repeat 0 0;
+        object-fit: cover;
+        width: 100%;
+        height: 620px;
+        background-size: 100% 620px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; 
+        
+    }
+    .ios-container{
+        margin-left: 30px !important;
+    }
+    .ios-header{
+        font-size: 32px;
+    }
+    .ios-sub-text{
+        font-size: 17px;
+    }
+    
+}

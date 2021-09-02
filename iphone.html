@@ -309,18 +309,19 @@
                                     class="banner-links-icons font-weight-normal fas fa-chevron-right"></i></a>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
             <div id="iphones" class="row m-1">
                 <div class="col-md-3 col-6 p-0 ">
                     <div class="product-image-outer text-center">
-                        <img class="product-image image-compare-iphone-12-pro" src="images/compare_iphone_12_pro__gmn3556ju3am_large.jpg" alt="Product image">
+                        <img class="product-image image-compare-iphone-12-pro"
+                            src="images/compare_iphone_12_pro__gmn3556ju3am_large.jpg" alt="Product image">
                         <div class="device-title">
                             <h3 class="device-name">iPhone12Pro</h3>
                             <p class="device-price ">From ₹119900*</p>
-                            <img class="device-colors"
-                                src="images/swatches_iphone_12_pro__for4g8pne0ey_large.jpg" alt="">
+                            <img class="device-colors" src="images/swatches_iphone_12_pro__for4g8pne0ey_large.jpg"
+                                alt="">
                             <div class="product-buy">
                                 <a href="" class="device-buy-btn  btn btn-primary">Buy</a>
                             </div>
@@ -373,6 +374,17 @@
     </section>
 
 
+    <!--  banner ios -->
+    <section style="background-color: #f2f2f2;" class="pt-5 pb-5 ">
+        <div  class="ios-container  ml-5 ">
+            <div  class="ios-banner row">
+                <div class="col-md-12 ">
+                    <h2 style="bottom: 73px;" class="ios-header ios-header-text banners-header-text">iOS 15</h2>
+                    <h3 style="top: 44px;" class="ios-header ios-sub-text banners-text">In touch. In the moment.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- footer section -->
@@ -499,15 +511,17 @@
             if (screen.width < 735) {
                 var imacImage = document.querySelector("#imacImage").src = "images/iphone_12__d51ddqcc7oqe_small_2x.jpg";
                 document.querySelector("#iphone12proImage").src = "images/iphone_12_pro__f7wokw1n4lm6_small_2x.jpg";
+                //ios image
+                document.querySelector("#ios-banner").src = "images/ios15_preview__f7lrpcnc3eum_small_2x.jpg";
 
             }
             else {
                 var imacImage = document.querySelector("#imacImage").src = "images/iphone_12__d51ddqcc7oqe_large.jpg";
                 document.querySelector("#iphone12proImage").src = "images/iphone_12_pro__f7wokw1n4lm6_large.jpg";
+                //ios-image
+                document.querySelector("#ios-banner").src = "images/ios15_preview__f7lrpcnc3eum_large_2x.jpg";
 
             }
-
-
 
         }
 
