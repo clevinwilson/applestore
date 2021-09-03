@@ -1291,6 +1291,14 @@ hr.hamburger-hr {
     font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin: 6px 0 0;
 }
+.title-containers{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 3px 0 2px;
+}
 @media screen and (max-width: 768px) {
     .product-title-name{
         font-size: 19px;
@@ -1321,5 +1329,52 @@ hr.hamburger-hr {
     }
   
     
+}
+
+
+/* right section product details */
+.violator-frameless{
+    box-sizing: border-box;
+    white-space: nowrap;
+    display: block;
+    color: #bf4800;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: Sans-serif;
+    padding-bottom: 3px;
+}
+.product-name{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-family: Sans-serif;
+    padding-bottom: 11px;
+}
+.product-offer{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: sans-serif;
+    margin: 3px 0 2px;
+}
+@media screen and (max-width: 768px) {
+    .product-header{
+        display: none;
+    }
+    .violator-frameless{
+        font-size: 12px;
+    }
+    .product-name{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .product-header-sm{
+        display: none;
+    }
 }
 
