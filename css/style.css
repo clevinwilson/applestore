@@ -1275,13 +1275,21 @@ hr.hamburger-hr {
     font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .product-spc-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     object-fit: cover;
     width: 100%;
     height: auto;
-    min-height: 450px;
+}
+.product-image-cotainer{
+    position: sticky;
+    top: 0;
+}
+.need-help-tag{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 6px 0 0;
 }
 @media screen and (max-width: 768px) {
     .product-title-name{
@@ -1302,9 +1310,16 @@ hr.hamburger-hr {
         font-size: 14px;
         
     }
-    .product-spc-image{
-        height: 90%;
+    .product-image-cotainer{
+        padding: 0px !important;
     }
+    .produc-hr{
+        display: none;
+    }
+    .product-sm-name{
+        display: none;
+    }
+  
     
 }
 
