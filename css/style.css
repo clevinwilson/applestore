@@ -1361,6 +1361,42 @@ hr.hamburger-hr {
     font-family: sans-serif;
     margin: 3px 0 2px;
 }
+.model-title{
+    font-size: 17px;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: block;
+}
+.screen-size{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: sans-serif;
+}
+.device-model-select{
+    border-style: solid;
+    /* border-width: 20px; */
+    border-color: #c4c4c4;
+    border-radius: 13px;
+    outline: none;
+    border-width: 1px;
+    padding: 16px;
+}
+.device-price-radion{
+    position: relative;
+    align-self: center;
+    text-align: right;
+}
+.device-price{
+    float: right;
+    font-size: 17px;
+}
+.device-model-select:hover{
+    border-color: #868686;
+}
 @media screen and (max-width: 768px) {
     .product-header{
         display: none;
