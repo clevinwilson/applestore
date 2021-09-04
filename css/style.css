@@ -1460,10 +1460,28 @@ hr.hamburger-hr {
     padding: 30px;
     margin-top: 28px;
 }
+.banner-right-section{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media screen and (max-width: 768px) {
+    .banner-right-section{
+        margin: 25px;
+    }
+    .footer-section{
+        padding: 5px;
+    }
+    .price{
+        font-size: 27px !important;
+    }
+   
+}
 @media screen and (min-width: 768px) {
     .product-header-sm{
         display: none;
     }
+    
 }
 
 /* supportpage */
