@@ -1368,6 +1368,7 @@ hr.hamburger-hr {
     font-family: sans-serif;
     font-weight: 600;
     display: block;
+    color: #484848;
 }
 .screen-size{
     font-size: 12px;
@@ -1375,6 +1376,7 @@ hr.hamburger-hr {
     font-weight: 400;
     letter-spacing: -.01em;
     font-family: sans-serif;
+    color:#6a6a6a;
 }
 .device-model-select{
     border-style: solid;
@@ -1384,6 +1386,10 @@ hr.hamburger-hr {
     outline: none;
     border-width: 1px;
     padding: 16px;
+}
+.device-model-selected{
+    border-color: #0071e3 !important;
+    border-width: 2px;
 }
 .device-price-radion{
     position: relative;
