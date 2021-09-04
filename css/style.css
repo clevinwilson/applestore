@@ -1387,10 +1387,7 @@ hr.hamburger-hr {
     border-width: 1px;
     padding: 16px;
 }
-.device-model-selected{
-    border-color: #0071e3 !important;
-    border-width: 2px;
-}
+
 .device-price-radion{
     position: relative;
     align-self: center;
@@ -1413,6 +1410,55 @@ hr.hamburger-hr {
     .product-name{
         font-size: 28px;
     }
+}
+.border-size{
+    border-top: 1px solid #d2d2d7;
+}
+.product-color{
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-label-small{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: sans-serif;
+    color: #1d1d1f;
+}
+.form-selector-title{
+    font-size: 29px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: .008em;
+    font-family: sans-serif;
+    display: block;
+}
+.small-text{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: sans-serif;
+    color: #6a6a6a;
+}
+
+.bag-btn-container{
+    border-top: 1px solid #d2d2d7;
+}
+.bag-btn{
+    background-color: #0071e3;
+    border-radius: 10px;
+}
+.footer-section{
+    background-color: #fbfbfd;
+    padding: 30px;
+    margin-top: 28px;
 }
 @media screen and (min-width: 768px) {
     .product-header-sm{
