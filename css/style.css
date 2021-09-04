@@ -1414,3 +1414,26 @@ hr.hamburger-hr {
     }
 }
 
+/* supportpage */
+
+.search{
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+
+ @media screen and (max-width: 768px) {
+    .search{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
+.support-section{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 60px;
+    background-image: url(images/hero-banner-baker-homepage.image.large_2x.jpg);
+    height: 500px;
+    width: 100%;
+}
