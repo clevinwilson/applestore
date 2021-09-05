@@ -1499,6 +1499,16 @@ hr.hamburger-hr {
     width: 100%;
     height: 836px;
 }
+@media screen and (max-width: 768px) {
+    .iphone-text-container{
+        text-align: left !important;
+    }
+    .iphone-video{
+        height: 310px;
+    }
+   
+}
+
 
 /* supportpage */
 
