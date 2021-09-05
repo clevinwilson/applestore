@@ -1506,6 +1506,12 @@ hr.hamburger-hr {
     .iphone-video{
         height: 310px;
     }
+    .iphone-video-head{
+        margin-top: 40px;
+    }
+    .iphone-video{
+        transform: scale(1.4);
+    }
    
 }
 
