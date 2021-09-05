@@ -1491,6 +1491,11 @@ hr.hamburger-hr {
     
 }
 
+/* iphone-12 page */
+.ac-ln-content{
+    border-bottom: 1px solid #d2d2d7;
+}
+
 /* supportpage */
 
 .search{
