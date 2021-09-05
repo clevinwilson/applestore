@@ -772,7 +772,7 @@ hr.hamburger-hr {
     letter-spacing: 0.019em;
 }
 
-.device-price {
+.device-price-spec {
     color: #565656;
     font-size: 14px;
     line-height: 1.42859;
@@ -1476,6 +1476,13 @@ hr.hamburger-hr {
         font-size: 27px !important;
     }
    
+}
+.ac-ln-menu-link{
+    color: #000;
+    display: inline-block;
+    line-height: 22px;
+    white-space: nowrap;
+    opacity: .88;
 }
 @media screen and (min-width: 768px) {
     .product-header-sm{
