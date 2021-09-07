@@ -1193,7 +1193,6 @@ hr.hamburger-hr {
     }
 }
 
-
 /* ios banner */
 
 .ios-banner {
@@ -1203,7 +1202,7 @@ hr.hamburger-hr {
     width: 100%;
     background-size: 100% 560px;
     background-repeat: no-repeat;
-    background-size:     cover;
+    background-size: cover;
     background-position: center center
 }
 
@@ -1220,10 +1219,10 @@ hr.hamburger-hr {
     letter-spacing: -.003em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-.ios-sub-text{
+
+.ios-sub-text {
     font-size: 21px;
 }
-
 
 @media screen and (max-width: 768px) {
     .ios-banner {
@@ -1234,106 +1233,108 @@ hr.hamburger-hr {
         background-size: 100% 620px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center; 
-        
+        background-position: center center;
     }
-    .ios-container{
+    .ios-container {
         margin-left: 30px !important;
     }
-    .ios-header{
+    .ios-header {
         font-size: 32px;
     }
-    .ios-sub-text{
+    .ios-sub-text {
         font-size: 17px;
     }
-    
 }
 
 /* buy prodcut page */
-.title-price-nav{
+
+.title-price-nav {
     background-color: #ffffff;
 }
-.title-divider{
+
+.title-divider {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 6px;
-
 }
-.product-title-name{
+
+.product-title-name {
     font-size: 21px;
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.product-title-price{
+
+.product-title-price {
     font-size: 17px;
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.product-spc-image{
+
+.product-spc-image {
     object-fit: cover;
     width: 100%;
     height: auto;
 }
-.product-image-cotainer{
+
+.product-image-cotainer {
     position: sticky;
     top: 0;
 }
-.need-help-tag{
+
+.need-help-tag {
     font-size: 12px;
     line-height: 1.33337;
     font-weight: 600;
     letter-spacing: -.01em;
-    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 6px 0 0;
 }
-.title-containers{
+
+.title-containers {
     font-size: 17px;
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 3px 0 2px;
 }
+
 @media screen and (max-width: 768px) {
-    .product-title-name{
+    .product-title-name {
         font-size: 19px;
         display: block;
         margin-top: auto;
         margin-bottom: auto;
-        
-    } 
-    .title-containers{
+    }
+    .title-containers {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
-    .title-divider{
+    .title-divider {
         padding: 0px;
     }
-    .product-title-price{
+    .product-title-price {
         font-size: 14px;
-        
     }
-    .product-image-cotainer{
+    .product-image-cotainer {
         padding: 0px !important;
     }
-    .produc-hr{
+    .produc-hr {
         display: none;
     }
-    .product-sm-name{
+    .product-sm-name {
         display: none;
     }
-  
-    
 }
 
-
 /* right section product details */
-.violator-frameless{
+
+.violator-frameless {
     box-sizing: border-box;
     white-space: nowrap;
     display: block;
@@ -1345,7 +1346,8 @@ hr.hamburger-hr {
     font-family: Sans-serif;
     padding-bottom: 3px;
 }
-.product-name{
+
+.product-name {
     font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
@@ -1353,7 +1355,8 @@ hr.hamburger-hr {
     font-family: Sans-serif;
     padding-bottom: 11px;
 }
-.product-offer{
+
+.product-offer {
     font-size: 17px;
     line-height: 1.47059;
     font-weight: 400;
@@ -1361,7 +1364,8 @@ hr.hamburger-hr {
     font-family: sans-serif;
     margin: 3px 0 2px;
 }
-.model-title{
+
+.model-title {
     font-size: 17px;
     line-height: 1.47059;
     letter-spacing: -.022em;
@@ -1370,15 +1374,17 @@ hr.hamburger-hr {
     display: block;
     color: #484848;
 }
-.screen-size{
+
+.screen-size {
     font-size: 12px;
     line-height: 1.33337;
     font-weight: 400;
     letter-spacing: -.01em;
     font-family: sans-serif;
-    color:#6a6a6a;
+    color: #6a6a6a;
 }
-.device-model-select{
+
+.device-model-select {
     border-style: solid;
     /* border-width: 20px; */
     border-color: #c4c4c4;
@@ -1388,40 +1394,46 @@ hr.hamburger-hr {
     padding: 16px;
 }
 
-.device-price-radion{
+.device-price-radion {
     position: relative;
     align-self: center;
     text-align: right;
 }
-.device-price{
+
+.device-price {
     float: right;
     font-size: 17px;
 }
-.device-model-select:hover{
+
+.device-model-select:hover {
     border-color: #868686;
 }
+
 @media screen and (max-width: 768px) {
-    .product-header{
+    .product-header {
         display: none;
     }
-    .violator-frameless{
+    .violator-frameless {
         font-size: 12px;
     }
-    .product-name{
+    .product-name {
         font-size: 28px;
     }
 }
-.border-size{
+
+.border-size {
     border-top: 1px solid #d2d2d7;
 }
-.product-color{
+
+.product-color {
     width: 32px;
     height: 32px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.form-label-small{
+
+.form-label-small {
     display: inline-block;
     position: relative;
     font-size: 12px;
@@ -1431,7 +1443,8 @@ hr.hamburger-hr {
     font-family: sans-serif;
     color: #1d1d1f;
 }
-.form-selector-title{
+
+.form-selector-title {
     font-size: 29px;
     line-height: 1;
     font-weight: 400;
@@ -1439,7 +1452,8 @@ hr.hamburger-hr {
     font-family: sans-serif;
     display: block;
 }
-.small-text{
+
+.small-text {
     font-size: 12px;
     line-height: 1.33337;
     font-weight: 400;
@@ -1448,88 +1462,94 @@ hr.hamburger-hr {
     color: #6a6a6a;
 }
 
-.bag-btn-container{
+.bag-btn-container {
     border-top: 1px solid #d2d2d7;
 }
-.bag-btn{
+
+.bag-btn {
     background-color: #0071e3;
     border-radius: 10px;
 }
-.footer-section{
+
+.footer-section {
     background-color: #fbfbfd;
     padding: 30px;
     margin-top: 28px;
 }
-.banner-right-section{
+
+.banner-right-section {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
 }
+
 @media screen and (max-width: 768px) {
-    .banner-right-section{
+    .banner-right-section {
         margin: 25px;
     }
-    .footer-section{
+    .footer-section {
         padding: 5px;
     }
-    .price{
+    .price {
         font-size: 27px !important;
     }
-   
 }
-.ac-ln-menu-link{
+
+.ac-ln-menu-link {
     color: #000;
     display: inline-block;
     line-height: 22px;
     white-space: nowrap;
     opacity: .88;
 }
+
 @media screen and (min-width: 768px) {
-    .product-header-sm{
+    .product-header-sm {
         display: none;
     }
-    
 }
 
 /* iphone-12 page */
-.ac-ln-content{
+
+.ac-ln-content {
     border-bottom: 1px solid #d2d2d7;
 }
-.iphone-video{
+
+.iphone-video {
     width: 100%;
     height: 836px;
 }
+
 @media screen and (max-width: 768px) {
-    .iphone-text-container{
+    .iphone-text-container {
         text-align: left !important;
     }
-    .iphone-video{
+    .iphone-video {
         height: 310px;
     }
-    .iphone-video-head{
+    .iphone-video-head {
         margin-top: 40px;
     }
-    .iphone-video{
+    .iphone-video {
         transform: scale(1.4);
     }
-   
 }
 
 /* supportpage */
 
-.search{
+.search {
     margin-left: 100px;
     margin-right: 100px;
- }
+}
 
- @media screen and (max-width: 768px) {
-    .search{
+@media screen and (max-width: 768px) {
+    .search {
         margin-left: 20px;
-    margin-right: 20px;
+        margin-right: 20px;
     }
 }
 
-.support-section{
+.support-section {
     background-size: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -1540,7 +1560,8 @@ hr.hamburger-hr {
 }
 
 /* signup page */
-.appleid-text{
+
+.appleid-text {
     font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
@@ -1548,6 +1569,24 @@ hr.hamburger-hr {
     font-family: sans-serif;
     color: white;
 }
-.appleid-section{
+
+.appleid-section {
     padding: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .form-container {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}
+
+.form-input-padding {
+    padding: 28px;
+}
+
+.form-submit-btn-style {
+    letter-spacing: 1px;
+    background-image: linear-gradient( 0deg, #0171ca, #3f9feb);
+    border-color: #0077cc;
 }
