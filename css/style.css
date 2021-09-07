@@ -1515,7 +1515,6 @@ hr.hamburger-hr {
    
 }
 
-
 /* supportpage */
 
 .search{
@@ -1538,4 +1537,17 @@ hr.hamburger-hr {
     background-image: url(images/hero-banner-baker-homepage.image.large_2x.jpg);
     height: 500px;
     width: 100%;
+}
+
+/* signup page */
+.appleid-text{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-family: sans-serif;
+    color: white;
+}
+.appleid-section{
+    padding: 60px;
 }
