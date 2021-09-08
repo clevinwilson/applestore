@@ -1590,3 +1590,25 @@ hr.hamburger-hr {
     background-image: linear-gradient( 0deg, #0171ca, #3f9feb);
     border-color: #0077cc;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.password-notmatch-text{
+    font-size: 13px;
+    padding-top: 10px;
+    float: left;
+    color: red;
+    letter-spacing: 0.012em;
+    display: none;
+}
+.show-password-notmatch-text{
+    display: block !important;
+}
+
+.password-input-box-error{
+    border-color: red;
+    background-color: #f7d4d4;
+    color: white;
+}

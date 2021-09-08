@@ -199,7 +199,8 @@
                 <div style="padding-top: 30px;" class="col-md-12 ">
                     <div class="intro text-center">
                         <h6 class="intro-text  ">One Apple ID is all you need to access all Apple services. <br>
-                            You already have an Apple ID? <a href="">Find it here<i class="bi bi-chevron-right"></i> </a></h6>
+                            You already have an Apple ID? <a href="">Find it here<i class="bi bi-chevron-right"></i>
+                            </a></h6>
                     </div>
                 </div>
             </div>
@@ -210,35 +211,52 @@
         <div class="container">
             <div class="row form-container ">
                 <div class=" col-md-12 text-center ">
-                    <form action="">
-                       <div class="row text-center">
-                        <div class="  form-group col-md-6">
-                            <input type="email" class="form-input-padding form-control"   placeholder="first name">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <input type="email" class="form-input-padding form-control"   placeholder="last name">
-                          </div>
-                          <div class="form-group col-md-12">
-                            <input type="email" class=" form-input-padding form-control"   placeholder="name@example.com">
-                            <p class="m-1 text-secondary" style="text-align: left; font-size: 15px;">This will be your new Apple ID.</p>
-                          </div>
-                          <div class="form-group col-md-12">
-                            <input type="email" class=" form-input-padding form-control"   placeholder="password">
-                          </div>
-                          <div class="form-group col-md-12">
-                            <input type="email" class=" form-input-padding form-control"   placeholder="confirm password">
-                          </div>
-                          <div class="form-group col-md-12">
-                            <input type="email" class=" form-input-padding form-control"   placeholder="phone number">
-                          </div>
-                          <div class="col-md-12">
-                              <p class="text-secondary" style="font-size: 15px !important; float: left;">Make sure you enter a phone number you can always access.</p>
-                          </div>
-                          <div class="form-btn-container  col-md-12">
-                              <a href="" type="submit" class="form-submit-btn-style  btn btn-primary">Continue</a>
-                          </div>
-                           
-                       </div>
+                    <form action="" name="signup" id="signup" method="POST">
+                        <div class="row text-center">
+                            <div class="  form-group col-md-6">
+                                <input type="text" class="form-input-padding form-control" placeholder="first name"
+                                    required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-input-padding form-control" placeholder="last name"
+                                    required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="email" class=" form-input-padding form-control"
+                                    placeholder="name@example.com" required>
+                                <p class="m-1 text-secondary" style="text-align: left; font-size: 15px;">This will be
+                                    your new Apple ID.</p>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="password" id="password" class=" form-input-padding form-control"
+                                    minlength="4" placeholder="password">
+                                <p class="password-notmatch-text password-error-text"> The passwords you entered do not
+                                    match.</p>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <input type="password" id="confirm-password" class=" form-input-padding form-control"
+                                    minlength="4" placeholder="confirm password">
+                                <p class="password-notmatch-text confirm-password-error-text"> The passwords you entered
+                                    do not match.</p>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <input type="number" id="phone-number" class=" form-input-padding form-control"
+                                    oninput="javascript: if (this.value.length > this.maxLength ) this.value = this.value.slice(0, this.maxLength);"
+                                    placeholder="phone number" maxlength="10" minlength="10">
+                                <p class="password-notmatch-text phone-error-text confirm-password-error-text"> </p>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="text-secondary" style="font-size: 15px !important; float: left;">Make sure you
+                                    enter a phone number you can always access.</p>
+                            </div>
+                            <div class="form-btn-container  col-md-12">
+                                <button href="" type="submit" name="submit"
+                                    class="form-submit-btn-style  btn btn-primary">Continue</button>
+                            </div>
+
+                        </div>
                     </form>
                 </div>
             </div>
@@ -337,6 +355,62 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script>
+
+        var confirmPasswordInput = document.getElementById('confirm-password');
+        var passwordInput = document.getElementById('password');
+        let password = document.getElementById('password');
+
+        passwordInput.addEventListener('keyup', () => {
+            let password = document.getElementById('password').value;
+            let confirmPassword = document.getElementById('confirm-password').value;
+            let passwordText = document.querySelector('.password-error-text');
+            if (confirmPassword) {
+                if (password == confirmPassword) {
+                    passwordText.classList.remove('show-password-notmatch-text')
+                    document.querySelector('#password').classList.remove('password-input-box-error')
+                } else {
+
+                    passwordText.classList.add('show-password-notmatch-text')
+                    passwordInput.classList.add('password-input-box-error')
+                    document.querySelector('#password').classList.add('password-input-box-error')
+                }
+            }
+        })
+        confirmPasswordInput.addEventListener('keyup', () => {
+            let password = document.getElementById('password').value;
+            let confirmPassword = document.getElementById('confirm-password').value;
+            let confirmPasswordText = document.querySelector('.confirm-password-error-text');
+            if (password == confirmPassword) {
+                confirmPasswordText.classList.remove('show-password-notmatch-text')
+                document.querySelector('#confirm-password').classList.remove('password-input-box-error')
+            } else {
+
+                confirmPasswordText.classList.add('show-password-notmatch-text')
+                document.querySelector('#confirm-password').classList.add('password-input-box-error')
+
+            }
+        })
+
+        //form submit
+        var form = document.querySelector('#signup');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // phone number validation
+                var phoneNumberLength = document.getElementById('phone-number').value.toString().length;
+                let  phoneText = document.querySelector('.phone-error-text');
+                if(phoneNumberLength < 10){
+                    phoneText.innerHTML="Enter a valid phone number."
+                    phoneText.classList.add('show-password-notmatch-text')
+                    document.querySelector('#phone-number').classList.add('password-input-box-error')
+                }else{
+                    phoneText.classList.remove('show-password-notmatch-text')
+                    document.querySelector('#phone-number').classList.remove('password-input-box-error')
+                }
+           
+        })
+    </script>
 
 </body>
 
