@@ -1666,6 +1666,12 @@ input::-webkit-inner-spin-button {
     .create-account-text-container{
         font-size: 13px;
     }
+    .appleid-section{
+        padding: 18px;
+    }
+    .appleid-text{
+        font-size: 28px;
+    }
    
 }
 @media screen and (min-width: 768px) {
