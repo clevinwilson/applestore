@@ -1400,7 +1400,7 @@ hr.hamburger-hr {
     text-align: right;
 }
 
-.device-price {
+.device-price-right {
     float: right;
     font-size: 17px;
 }
@@ -1613,7 +1613,7 @@ input::-webkit-inner-spin-button {
     color: white;
 }
 
-/* login page css */
+ /* login page css */
 .signin-header-text{
     font-size: 40px;
     line-height: 1.1;
@@ -1665,12 +1665,6 @@ input::-webkit-inner-spin-button {
     }
     .create-account-text-container{
         font-size: 13px;
-    }
-    .appleid-section{
-        padding: 18px;
-    }
-    .appleid-text{
-        font-size: 28px;
     }
    
 }
