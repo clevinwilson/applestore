@@ -1538,16 +1538,17 @@ hr.hamburger-hr {
 /* supportpage */
 
 .search {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 222px;
+    margin-right: 217px;
 }
 
 @media screen and (max-width: 768px) {
     .search {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
+
 
 .support-section {
     background-size: 100%;
