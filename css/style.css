@@ -1556,7 +1556,7 @@ hr.hamburger-hr {
     object-fit: cover;
     margin-top: 60px;
     background-image: url(images/hero-banner-baker-homepage.image.large_2x.jpg);
-    height: 500px;
+    height: 375px;
     width: 100%;
 }
 
@@ -1678,4 +1678,10 @@ input::-webkit-inner-spin-button {
     .signup-form-marginl-lg{
         margin-left: 50px;
     }
+}
+
+/* below welcome */
+
+.smallpics{
+    margin-top: -39px;
 }
